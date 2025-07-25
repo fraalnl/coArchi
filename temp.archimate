@@ -6,14 +6,24 @@
     <element xsi:type="archimate:ApplicationService" name="Application Service" id="id-6946c6ad32c04f5fb77b0fa196fe0fc6"/>
   </folder>
   <folder name="Technology &amp; Physical" id="id-f6535ae39f1947e382d4468a8c6c879f" type="technology"/>
-  <folder name="Motivation" id="id-3a3cc62ce1da4e7d9b4deec19f4e6592" type="motivation"/>
-  <folder name="Implementation &amp; Migration" id="id-785efd2d939648dbb557daf1edd349d7" type="implementation_migration"/>
+  <folder name="Motivation" id="id-3a3cc62ce1da4e7d9b4deec19f4e6592" type="motivation">
+    <element xsi:type="archimate:Requirement" name="Requirement" id="id-90f313b4a4204695b2daebb92aa4b68b"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-785efd2d939648dbb557daf1edd349d7" type="implementation_migration">
+    <element xsi:type="archimate:WorkPackage" name="Work Package" id="id-9f34ba7bad224ffeb330c21b5eedb718"/>
+  </folder>
   <folder name="Other" id="id-202650f930c24d16ad16293c69a03c59" type="other"/>
   <folder name="Relations" id="id-ed418ce3eb6a414a8f107c3c45ce9c01" type="relations"/>
   <folder name="Views" id="id-271afa70fccc4452a2e68180f256ca02" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-0e25c8d59a5949afa03d717be06289c0">
       <child xsi:type="archimate:DiagramObject" id="id-3aa13577b68f417598dc921adc85c03e" archimateElement="id-6946c6ad32c04f5fb77b0fa196fe0fc6">
-        <bounds x="797" y="466" width="120" height="55"/>
+        <bounds x="420" y="396" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-25720684a5af470b9da6657b7a169482" archimateElement="id-9f34ba7bad224ffeb330c21b5eedb718">
+        <bounds x="624" y="240" width="461" height="133"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-7c6819aea5a5461baa4a02ecbf15160b" archimateElement="id-90f313b4a4204695b2daebb92aa4b68b">
+        <bounds x="636" y="528" width="505" height="97"/>
       </child>
     </element>
   </folder>
