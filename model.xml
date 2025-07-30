@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd" identifier="id-5f2b79eadd0d4e569ebcaa3e5cc5144e">
+  <name>coArchiModel</name>
+  <elements>
+    <element identifier="id-6946c6ad32c04f5fb77b0fa196fe0fc6" xsi:type="ApplicationService">
+      <name>Application Service</name>
+    </element>
+    <element identifier="id-90f313b4a4204695b2daebb92aa4b68b" xsi:type="Requirement">
+      <name>Requirement</name>
+    </element>
+    <element identifier="id-9f34ba7bad224ffeb330c21b5eedb718" xsi:type="WorkPackage">
+      <name>Work Package</name>
+    </element>
+  </elements>
+  <views>
+    <diagrams>
+      <view identifier="id-0e25c8d59a5949afa03d717be06289c0" xsi:type="Diagram">
+        <name>Default View</name>
+        <node identifier="id-3aa13577b68f417598dc921adc85c03e" elementRef="id-6946c6ad32c04f5fb77b0fa196fe0fc6" xsi:type="Element" x="180" y="216" w="120" h="55">
+          <style>
+            <fillColor r="181" g="255" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-25720684a5af470b9da6657b7a169482" elementRef="id-9f34ba7bad224ffeb330c21b5eedb718" xsi:type="Element" x="156" y="48" w="461" h="133">
+          <style>
+            <fillColor r="255" g="224" b="224" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-7c6819aea5a5461baa4a02ecbf15160b" elementRef="id-90f313b4a4204695b2daebb92aa4b68b" xsi:type="Element" x="636" y="528" w="505" h="97">
+          <style>
+            <fillColor r="204" g="204" b="255" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Segoe UI" size="9">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+      </view>
+    </diagrams>
+  </views>
+</model>
