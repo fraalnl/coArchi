@@ -16,7 +16,7 @@
     <diagrams>
       <view identifier="id-0e25c8d59a5949afa03d717be06289c0" xsi:type="Diagram">
         <name>Default View</name>
-        <node identifier="id-3aa13577b68f417598dc921adc85c03e" elementRef="id-6946c6ad32c04f5fb77b0fa196fe0fc6" xsi:type="Element" x="180" y="216" w="120" h="55">
+        <node identifier="id-3aa13577b68f417598dc921adc85c03e" elementRef="id-6946c6ad32c04f5fb77b0fa196fe0fc6" xsi:type="Element" x="192" y="228" w="120" h="55">
           <style>
             <fillColor r="181" g="255" b="255" a="100" />
             <lineColor r="92" g="92" b="92" a="100" />
